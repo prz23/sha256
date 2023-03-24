@@ -1,0 +1,16 @@
+[package]
+name = "bellman-sha256"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bellman = "0.13.1"
+sha2 = "0.10"
+rand = "0.8"
+ff = "0.12"
+pairing = "0.22"
+bls12_381 = "0.7"
+
+#bitcoin = { git = "https://github.com/rust-bitcoin/rust-bitcoin" }
