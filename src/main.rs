@@ -1,5 +1,6 @@
 mod blockchain;
 mod sha256;
+mod ownership;
 
 use bellman::{
     gadgets::{
